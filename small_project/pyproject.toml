@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "small_project"
+version = "0.1.0"
+description = ""
+authors = ["曲一鸣 <quym@foxmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+dash = "^1.17.0"
+pandas = "^1.1.4"
+umap-learn = "^0.4.6"
+matplotlib = "^3.3.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
